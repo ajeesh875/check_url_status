@@ -17,7 +17,14 @@ This program periodically checks the status of a website and sends an email noti
 
 3. Open the Python file `website_status_checker.py` in a text editor.
 
-4. Modify the following variables according to your needs:
+4. Save the modifications and close the file.
+
+5. Open a terminal or command prompt and navigate to the directory containing the program files.
+
+6. Run the program using the following command:
+  python website_status_checker.py
+
+7. Input the following variables according to your needs:
 - `url`: The URL of the website you want to monitor.
 - `interval`: The time interval between each status check, in seconds.
 - `sender_email`: Your email address for sending the status notifications.
@@ -30,18 +37,10 @@ This program periodically checks the status of a website and sends an email noti
     5. Enter a name that helps you remember where you'll use the app password.
     6. Select Generate.
     7. use the generated password in the `password` field
-
-5. Save the modifications and close the file.
-
-6. Open a terminal or command prompt and navigate to the directory containing the program files.
-
-7. Run the program using the following command:
-  python website_status_checker.py
-
 8. The program will start checking the website status periodically. You will receive email notifications with the status information.
 
 ## Note
 
-- Ensure that a stable internet connection for the program to function properly.
+- Ensure a stable internet connection for the program to function properly.
 - Make sure to use your actual email credentials and provide valid email addresses for sending and receiving the notifications.
 
