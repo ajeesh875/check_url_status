@@ -1,4 +1,4 @@
-# Website Status Checker and Email Notifier
+  # Website Status Checker and Email Notifier
 
 This program periodically checks the status of a website and sends an email notification with the status information.
 
@@ -27,9 +27,9 @@ This program periodically checks the status of a website and sends an email noti
 7. Input the following variables according to your needs:
 - `url`: The URL of the website you want to monitor.
 - `interval`: The time interval between each status check, in seconds.
-- `sender_email`: Your email address for sending the status notifications.
+- `sender_email`: Your gmail address for sending the status notifications.
 - `receiver_email`: The recipient's email address for receiving the notifications.
-- `password`: The password for your email account. for gmail use app password. follow below step to create app password
+- `password`: The password for your email account. use google app password. follow below step to create app password
     1. Go to your Google Account.
     2. Select Security.
     3. Under "Signing in to Google," select 2-Step Verification.
@@ -43,4 +43,5 @@ This program periodically checks the status of a website and sends an email noti
 
 - Ensure a stable internet connection for the program to function properly.
 - Make sure to use your actual email credentials and provide valid email addresses for sending and receiving the notifications.
+- We have used gmail SMTP configuration. So sender email id should be a gmail id
 
